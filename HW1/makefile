@@ -1,6 +1,6 @@
 all: sclient sserver
 
-sclient: client.o
+sclient: sclient.o
 			gcc -o sclient sclient.c
-sserver: server.o
+sserver: sserver.o
 			gcc -o sserver sserver.c
